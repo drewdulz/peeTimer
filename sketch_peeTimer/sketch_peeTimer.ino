@@ -104,8 +104,8 @@ void loop() {
     lcd.print(++currentScore);
     // Update the screen to show the score
   } else if(peeStarted){ // Only execute this if they have already started peeing.
-    // If no voltage for 3 seconds, finish the current Pee cycle.
-    if(peeStopped < 30) {
+    // If no voltage for 4 seconds, finish the current Pee cycle.
+    if(peeStopped < 40) {
       peeStopped++;
     } else {
       endPeeCylce();
