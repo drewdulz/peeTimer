@@ -112,5 +112,5 @@ void loop() {
     }
     
   }
-  delay(100);
+  delay(100); //Delay for 1 tenth of a second.
 }
